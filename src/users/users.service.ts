@@ -34,7 +34,7 @@ export class UsersService {
     return this.users[userIndex];
   }
 
-  findOneUser(): User {
-    return this.users[0];
+  findOneUser(id: string): User {
+    return this.users[Number(id)];
   }
 }

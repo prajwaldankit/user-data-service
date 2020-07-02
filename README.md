@@ -4,9 +4,9 @@ npm run start:dev
 
 ### API ENDPOINTS:
 
-## {{URL}}/api/users:
+#### {{URL}}/api/users:
 
-# @Get():
+##### @Get():
 
 [{
 id: number;
@@ -21,7 +21,7 @@ edBackground: string;
 modeOfContact: number;
 }]
 
-# @Post(userData):
+##### @Post(userData):
 
 {
 id: number;
@@ -36,9 +36,9 @@ edBackground: string;
 modeOfContact: number;
 }
 
-## {{URL}}/api/users/[userId]
+#### {{URL}}/api/users/[userId]
 
-# @Get():
+##### @Get():
 
 {
 id: number;
@@ -55,6 +55,6 @@ modeOfContact: number;
 
 ### Libraries Used:
 
-## csvtosjson
+#### csvtosjson
 
 For converting the data in .csv file into json Object.

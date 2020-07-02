@@ -6,7 +6,7 @@ export interface User {
   email: string;
   address: string;
   nationality: string;
-  dob: Date;
+  dob: string;
   edBackground: string;
   modeOfContact: number;
 }
